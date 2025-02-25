@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Text</h2>
+    <input type="text" name="nombre">
+
+    <h2>Password</h2>
+    <input type="password" name="contraseña">
+
+    <h2>Email</h2>
+    <input type="email" name="correo">
+
+    <h2>Number</h2>
+    <input type="number" name="edad">
+
+    <h2>CheckBox</h2>
+    <input type="checkbox" name="intereses" value="deportes"> Deportes
+    <input type="checkbox" name="intereses" value="lectura"> Lectura
+
+    <h2>Radio</h2>
+    <input type="radio" name="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" value="femenino"> Femenino
+
+    <h2>Date</h2>
+    <input type="date" name="fecha_nacimiento">
+
+    <h2>File</h2>
+    <input type="file" name="archivo">
+
+    <h2>Submit</h2>
+    <input type="submit" value="Enviar">
+
+    <h2>Reset</h2>
+    <input type="reset" value="Restablecer">
+
+    <br><br>
+    <h2>Select</h2>
+
+
+    <select name="ciudad" id="ciudad">
+        <optgroup label="Ciudad1">
+            <option value="new_york">Nueva York</option>
+            <option value="los_angeles">Los Ángeles</option>
+            <option value="chicago">Chicago</option>
+            <option value="miami">Miami</option>
+        </optgroup>
+        <optgroup label="ciudad2">
+            <option value="neiva">Neiva</option>
+            <option value="bogota">Bogota</option>
+            <option value="tunja">Tunja</option>
+            <option value="pitalito" selected="selected">Pitalito</option>
+        </optgroup>
+    </select>
+
+    <br>
+    <br>
+
+    <button type="submit">Enviar</button>
+    <br><br>
+    <input type="submit" value="Enviar">
+
+    <form action="envio.php" method="GET">
+        <input type="text" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <button onclick="alert('Algo aca')">Alert</button>
+
+
+    <form action="envio.php" method="post">
+        <input type="text" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+</body>
+
+</html>
